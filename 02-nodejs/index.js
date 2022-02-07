@@ -54,7 +54,7 @@ async function main() {
         // const endereco = await obterEnderecoAsync(usuario.id)
         const resultado = await Promise.all([
             obterTelefone(usuario.id),
-            obterEnderecoAsync(usuario.id)
+            obterEnderecoAsync(usuario.id),
         ])
         const endereco = resultado[1]
         const telefone = resultado[0]
