@@ -4,7 +4,7 @@
   "description": "docker run \\     --name postgres \\     -e POSTGRES_USER=lucasfernandes \\     -e POSTGRES_PASSWORD=lucas1429 \\     -e POSTGRES_DB=heroes \\     -d \\     postgres",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -w"
   },
   "keywords": [],
   "author": "",
